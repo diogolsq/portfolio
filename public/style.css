@@ -1,0 +1,66 @@
+/* Fonts */
+
+
+
+/* General styles*/
+
+
+
+#banner-img{
+}
+
+
+/*#canvas{
+  width:1000px!important;
+  height: 500px !important;
+  background-color: rgba(0,0,0,0.5);
+}
+*/
+
+
+.banner-languages img {
+ width:50px;
+ heigth:0px;
+}
+
+.terminal {
+  width:400px;
+  height:400px;
+  background-image: url('images/Terminal.png');
+  border-radius:4px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+  display:flex;
+  justify-content: center;
+}
+
+#banner-typed-text{
+  font-size:15px;
+}
+
+span{
+  position:relative;
+  left:45px;
+  bottom:2px;
+}
+
+
+
+.home-banner {
+  background-image: url('https://source.unsplash.com/jU9VAZDGMzs/2000x1500');
+  background-size: cover;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // filter: grayscale(40%);
+  position:relative;
+  bottom:80px;
+  height:90vh;
+  filter: gray;
+  color: #eee;
+  text-align: center;
+  padding-top: 40vh;
+  font-size: 2rem;
+  text-shadow: 2px 2px 3px rgba(0,0,0, 0.8);
+}
+
