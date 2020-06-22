@@ -1,11 +1,16 @@
+const path = require('path');
+
+
 module.exports = {
-    entry: './javascript/main.js',
+    entry: path.resolve(__dirname,"./website/javascript/main.js"),
     output: {
-        path: __dirname + '/public',
+        path: path.resolve(__dirname,"dist"),
         filename: 'bundle.js',
     },
     devServer: {
         contentBase: __dirname + '/public',
+        port:9000,
+        index: 'index.html'
     },
     module: {
         rules: [
