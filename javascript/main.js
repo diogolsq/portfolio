@@ -9,7 +9,7 @@ require("turbolinks").start()
 
 // External imports
 // import "bootstrap";
-// import AOS from 'aos';
+import AOS from 'aos';
 
 // import '../assets/stylesheets/components/index.css'
 import { Banner } from './plugins/bannerBoom';
@@ -26,7 +26,7 @@ document.addEventListener( 'turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   // initMapbox();
-  // AOS.init();
+  AOS.init();
 
 });
 

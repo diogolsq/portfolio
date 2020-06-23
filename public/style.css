@@ -1,9 +1,13 @@
 /* Fonts */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 /* General styles*/
 
+body{
+
+  margin:0px;
+}
 
 
 #banner-img{
@@ -31,21 +35,35 @@
   box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
   display:flex;
   justify-content: center;
+  position:relative;
+  top:100px;
 }
+
+.fixing-script {
+  position:relative;
+  width:200px;
+}
+
 
 #banner-typed-text{
-  font-size:15px;
+  font-size:12px;
+  display: flex;
+  position:absolute;
+  left:73px;
+  top:48px;
+
+
 }
 
-span{
-  position:relative;
-  left:45px;
-  bottom:2px;
+
+.typed-cursor {
+  display:none;
 }
 
 
 
 .home-banner {
+  position:absolute;
   background-image: url('https://source.unsplash.com/jU9VAZDGMzs/2000x1500');
   background-size: cover;
   display:flex;
@@ -64,3 +82,12 @@ span{
   text-shadow: 2px 2px 3px rgba(0,0,0, 0.8);
 }
 
+
+.card-about-me{
+  margin:8px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.avatar{
+  border-radius:50%;
+}

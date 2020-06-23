@@ -19,6 +19,7 @@ const loadDynamicBannerText = () => {
       strings: ["puts 'Hi there'", "print('Hi there')","console.log('Hi There')"],
       typeSpeed: 50,
       backSpeed: 50,
+      smartBackSpace: true,
       startDelay: 1000,
       loop: true
     });
