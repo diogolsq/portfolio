@@ -28,6 +28,9 @@
     "animejs": "^3.2.0",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "poper": "^0.1.1",
+    "popper": "^1.0.1",
     "style-loader": "^1.2.1",
     "typed.js": "^2.0.11"
   }

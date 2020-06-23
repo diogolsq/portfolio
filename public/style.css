@@ -2,11 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
+@font-face{
+  font-family: GameFont;
+  src:url('Fonts/ServiceGamesOldskoolOutline-XG82.ttf');
+}
+
 /* General styles*/
 
 body{
-
+  background-color: #22181C;
   margin:0px;
+  color:white;
 }
 
 
@@ -64,7 +70,7 @@ body{
 
 .home-banner {
   position:absolute;
-  background-image: url('https://source.unsplash.com/jU9VAZDGMzs/2000x1500');
+  background-image: url('https://source.unsplash.com/p0j-mE6mGo4/2000x1500');
   background-size: cover;
   display:flex;
   flex-direction: column;
@@ -83,18 +89,20 @@ body{
 }
 
 
-.card-about-me{
+.card-section{
   margin:8px;
+  margin-top:40px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.card-about-me > h1 {
-  text-decoration: underline;
+.card-section > h1 {
+  font-family: GameFont;
+
 }
 
 .avatar{
   height: 200px;
-  border-radius:50%;
+  border-radius:20px;
 }
 
 .img-strongpoints{
@@ -102,10 +110,130 @@ body{
 }
 
 
+.skills{
+  margin-top:300px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-row{
+  display: flex;
+}
+
+.skill{
+  margin:2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:70px;
+  padding:4px;
+  border: 1px solid white: ;
+  border-radius:4px;
+}
+
+
+/*Card styles*/
 
 
 
-/*Piramid roation logic*/
+.card-trip {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius:4px;
+}
+
+.card-trip > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+.cards {
+  margin-top:60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Session of Piramid rotation logic*/
 
 .pyramid-wrap {
     display: flex;
@@ -146,7 +274,7 @@ body{
 
 .back {
     bottom: -20px;
-    border-bottom: 200px solid red;
+    border-bottom: 200px solid black;
     opacity:1.0;
     -webkit-transform: translateZ(-25px) rotateY(180deg) rotateX(30deg) translateZ(-30px);
 }
@@ -154,7 +282,7 @@ body{
 .left {
     bottom: -20px;
     left: 75px;
-    border-bottom: 200px solid yellow;
+    border-bottom: 200px solid gray;
     opacity:1.0;
     -webkit-transform: rotateY(270deg) translateX(-100px) rotateX(30deg) translateZ(-30px);
     -webkit-transform-origin: center left;
@@ -163,7 +291,7 @@ body{
 .right {
     bottom: -90px;
     right: 150px;
-    border-bottom: 200px solid green;
+    border-bottom: 200px solid gray;
     opacity: 1.0;
     -webkit-transform: rotateY(-270deg) translateX(102px) rotateX(30deg) translateZ(55px);
     -webkit-transform-origin: top right;
@@ -172,7 +300,7 @@ body{
 .bottom {
     width: 102px;
     height: 102px;
-    background: blue;
+    background: #2d2d2d;
     opacity: 1.0;
     -webkit-transform: rotateX(-90deg) translateY(-200px) rotateY(180deg) translateZ(-7px);
   -webkit-transform-origin:top center;
@@ -193,6 +321,21 @@ body{
     from { -webkit-transform: rotateY(0); }
     to { -webkit-transform: rotateY(360deg); }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
