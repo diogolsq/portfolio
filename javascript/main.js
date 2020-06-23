@@ -10,6 +10,7 @@ require("turbolinks").start()
 // External imports
 // import "bootstrap";
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // import '../assets/stylesheets/components/index.css'
 import { Banner } from './plugins/bannerBoom';
@@ -21,12 +22,10 @@ document.addEventListener( 'turbolinks:load', () => {
 
   // var banner = new Banner();
   // banner.initialize("canvas");
-  loadDynamicBannerText();
 
   // Call your functions here, e.g:
-  // initSelect2();
-  // initMapbox();
   AOS.init();
+  loadDynamicBannerText();
 
 });
 
