@@ -27,6 +27,7 @@
   "dependencies": {
     "animejs": "^3.2.0",
     "aos": "^2.3.4",
+    "bootstrap": "^4.5.0",
     "style-loader": "^1.2.1",
     "typed.js": "^2.0.11"
   }
