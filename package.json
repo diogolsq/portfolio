@@ -23,7 +23,7 @@
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
     "prod": "webpack --mode=production",
-    "start": "node index.js",
+    "start": "node server.js",
     "heroku-postbuild": "webpack -p"
   },
   "dependencies": {
