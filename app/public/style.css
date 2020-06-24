@@ -306,7 +306,9 @@ body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
+  top:50px;
   color:black;
+
 }
 
 .card-trip-infos .card-trip-user {
