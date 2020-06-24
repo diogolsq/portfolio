@@ -4,7 +4,7 @@
   "engines": {
     "node": "v12.x",
     "yarn": "1.x"
-  }
+  },
   "description": "Diogo Portfolio",
   "main": "index.js",
   "repository": "git@github.com:diogolsq/portfolio.git",
