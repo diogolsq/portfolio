@@ -157,14 +157,37 @@ body{
   border-radius:4px;
   margin:8px;
   width:500px;
-  height: 500px;
+  height: 550px;
 }
 
 
 .card-trip > video{
-  height: 300px;
+  height: 350px;
   width:100%;
 }
+
+
+
+.autotldr {
+  -moz-transform:scale(1.8);
+  -webkit-transform:scale(1.8);
+  -o-transform:scale(1.8);
+  -ms-transform:scale(1.8);
+  transform:scale(1.8);
+}
+
+body > div:nth-child(4) > div > div:nth-child(4) > div > div > h2 {
+  position:relative;
+  top:50px;
+
+}
+
+body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
+  position:relative;
+  top:50px;
+
+}
+
 
 .card-trip > img {
   height: 300px;
