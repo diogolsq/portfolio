@@ -2,7 +2,8 @@
   "name": "portfolio",
   "version": "1.0.0",
   "engines": {
-    "node": "v12.16.3"
+    "node": "v12.x",
+    "yarn": "1.x"
   }
   "description": "Diogo Portfolio",
   "main": "index.js",
@@ -26,8 +27,7 @@
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
     "prod": "webpack --mode=production",
-    "start": "node ./app/server.js",
-    "heroku-postbuild": "webpack -p"
+    "start": "node ./app/server.js"
   },
   "dependencies": {
     "animejs": "^3.2.0",
