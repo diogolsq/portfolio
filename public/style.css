@@ -116,6 +116,18 @@ body{
 }
 
 
+
+
+/*skills and keyboard style*/
+
+
+.keyboard {
+  border: 1px solid white;
+  border-radius:4px;
+  width: 807px;
+}
+
+
 .skills{
   margin-top:300px;
   display:flex;
@@ -128,6 +140,23 @@ body{
   display: flex;
 }
 
+.skills-row-1{
+  position:relative;
+  left:57px;
+}
+
+.skills-row-2{
+  height: 53px;
+  position: relative;
+  right: -18px;
+}
+
+.skills-row-3 {
+  height: 53px;
+  position: relative;
+  right: -57px;
+
+}
 .skill{
   margin:2px;
   display: flex;
@@ -137,7 +166,70 @@ body{
   padding:4px;
   border: 1px solid white;
   border-radius:4px;
-  background-color: white;
+  background-color: LightGray;
+  color: black;
+}
+
+.enter-button {
+  border: 1px solid gray;
+}
+
+.enter-button-box {
+  height: 60px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  position: relative !important;
+  bottom: 58px;
+  right: 44px;
+  width: 30px;
+}
+
+.space-button {
+  width:240px;
+}
+
+.button-top {
+  margin:2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:70px;
+  padding:4px;
+  border: 1px solid white;
+  border-radius:4px;
+  background-color: LightGray;
+  color: black;
+  position:relative;
+  left:690px;
+}
+
+.button-top-left{
+
+    margin:2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:70px;
+  padding:4px;
+  border: 1px solid white;
+  border-radius:4px;
+  background-color: LightGray;
+  color: black;
+  position:relative;
+  right:-15px;
+  top:33px;
+}
+
+.button-bigger {
+  margin:2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:70px;
+  padding:4px;
+  border: 1px solid white;
+  border-radius:4px;
+  background-color: LightGray;
   color: black;
 }
 
