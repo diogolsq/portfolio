@@ -430,6 +430,14 @@ body > div:nth-child(4) > div.cards > div:nth-child(2) > div{
   top:73px;
 }
 
+/* virtual runners*/
+body > div:nth-child(4) > div.cards > div:nth-child(1) > div{
+  position:relative;
+  top:10px;
+}
+
+
+
 
 
 .card-fixing-icons{
