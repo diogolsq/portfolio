@@ -378,7 +378,13 @@ body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
     margin-left:-100px;
     -webkit-perspective: 1000px;
     -webkit-perspective-origin: 50% 100px;
-    -webkit-transform: scale(0.5);
+
+}
+
+@media (max-width: 600px) {
+  .pyramid-wrap {
+     -webkit-transform: scale(0.5);
+  }
 }
 
 .pyramid-rotate {
@@ -464,6 +470,7 @@ body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
 .social-media {
   list-style-type: none;
   display:flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -479,7 +486,11 @@ body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
   color:white !important;
 }
 
+.contact-card{
+  display: flex;
+  justify-content: center
 
+}
 
 
 
