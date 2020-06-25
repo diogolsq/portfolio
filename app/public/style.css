@@ -1,6 +1,9 @@
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 @font-face{
   font-family: GameFont;
@@ -107,7 +110,10 @@ body{
 .card-section{
   margin:8px;
   margin-top:40px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  /*font-family: 'Press Start 2P', cursive;*/
+  /*font-family: 'Pangolin', cursive;*/
+  font-family: 'Source Code Pro', monospace;
 }
 
 
@@ -356,7 +362,7 @@ font-size:45px;
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
-  top:50px;
+  top:33px;
   color:black;
 
 
@@ -386,7 +392,7 @@ font-size:45px;
 
 body > div:nth-child(4) > div.cards > div:nth-child(7) > div{
   position:relative;
-  top:-75px;
+  top:-140px;
 }
 
 @media (min-width: 600px) {
@@ -398,18 +404,16 @@ body > div:nth-child(4) > div.cards > div:nth-child(7) > div{
 }
 
 /* tldr card */
-body > div:nth-child(4) > div > div:nth-child(4) > div > div > h2 {
 
-
-
+body > div:nth-child(4) > div.cards > div:nth-child(7) > video {
+  position:relative;
+  bottom: 50px;
 }
 
-body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
-
-
-
+body > div:nth-child(4) > div.cards > div:nth-child(7) > div{
+  position: relative;
+  bottom: 10px;
 }
-
 /* minesweeper*/
 
 body > div:nth-child(4) > div.cards > div:nth-child(6) > div > div{
