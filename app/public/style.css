@@ -368,9 +368,16 @@ font-size:45px;
 
 body > div:nth-child(4) > div.cards > div:nth-child(7) > div{
   position:relative;
-  top:-50px;
+  top:-75px;
 }
 
+@media (min-width: 600px) {
+  body > div:nth-child(4) > div.cards > div:nth-child(7) > div > div{
+    position:relative;
+    top:57px;
+
+  }
+}
 
 /* tldr card */
 body > div:nth-child(4) > div > div:nth-child(4) > div > div > h2 {
