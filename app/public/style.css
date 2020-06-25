@@ -21,6 +21,7 @@ body{
 }
 
 
+
 /*#canvas{
   width:1000px!important;
   height: 500px !important;
@@ -91,6 +92,15 @@ body{
   padding-top: 40vh;
   font-size: 2rem;
   text-shadow: 2px 2px 3px rgba(0,0,0, 0.8);
+}
+
+@media screen and (max-width:500px) {
+  .home-banner {
+    height: 70vh;
+  }
+  #banner-typed-text{
+  display:none;
+  }
 }
 
 
