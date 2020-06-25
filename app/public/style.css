@@ -307,18 +307,6 @@ display: none;
   transform:scale(1.8);
 }
 
-/* tldr card */
-body > div:nth-child(4) > div > div:nth-child(4) > div > div > h2 {
-
-
-
-}
-
-body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
-
-
-
-}
 
 
 .card-trip > img {
@@ -375,13 +363,33 @@ font-size:45px;
 
 /* fixing manually each card*/
 
+/* gin */
 
 body > div:nth-child(4) > div.cards > div:nth-child(7) > div{
   position:relative;
-  top:-40px;
+  top:-50px;
 }
 
 
+/* tldr card */
+body > div:nth-child(4) > div > div:nth-child(4) > div > div > h2 {
+
+
+
+}
+
+body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
+
+
+
+}
+
+/* minesweeper*/
+
+body > div:nth-child(4) > div.cards > div:nth-child(6) > div > div{
+  position:relative;
+  top: -22px;
+}
 
 
 
