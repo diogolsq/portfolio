@@ -399,8 +399,49 @@ body > div:nth-child(4) > div.cards > div:nth-child(6) > div > div{
 }
 
 
+/* local market*/
 
 
+body > div:nth-child(4) > div.cards > div:nth-child(2) > div{
+  postion:relative;
+  top:73px;
+}
+
+
+
+.card-fixing-icons{
+  display:flex;
+  width: 100%;
+}
+
+
+/* fixing all the divs that are smaller then card-trip-info to make sure that wont mess the style*/
+body > div:nth-child(4) > div.cards > div:nth-child(3) > div > div{
+  width:100%;
+}
+
+body > div:nth-child(4) > div.cards > div:nth-child(2) > div > div{
+  width:100%;
+}
+
+body > div:nth-child(4) > div.cards > div:nth-child(4) > div > div{
+  width:100%;
+}
+
+body > div:nth-child(4) > div.cards > div:nth-child(5) > div > div{
+  width:100%;
+}
+
+/* Github icon to the rigth*/
+.card-fixing-icon-right{
+  width:100%;
+  display:flex;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
 
 
 /*Session of Piramid rotation logic*/
