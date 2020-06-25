@@ -307,15 +307,16 @@ display: none;
   transform:scale(1.8);
 }
 
+/* tldr card */
 body > div:nth-child(4) > div > div:nth-child(4) > div > div > h2 {
-  position:relative;
-  top:50px;
+
+
 
 }
 
 body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
-  position:relative;
-  top:50px;
+
+
 
 }
 
@@ -338,6 +339,9 @@ body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
   margin: 0;
 }
 
+.card-trip-infos i {
+font-size:45px;
+}
 
 .card-trip .card-trip-infos {
   padding: 16px;
