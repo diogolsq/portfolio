@@ -96,7 +96,7 @@ body{
 
 @media screen and (max-width:500px) {
   .home-banner {
-    height: 70vh;
+    height: 50vh;
   }
   #banner-typed-text{
   display:none;
