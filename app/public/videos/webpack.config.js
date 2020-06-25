@@ -9,7 +9,7 @@ module.exports = {
         publicPath: '/'
     },
     devServer: {
-        contentBase: __dirname + '/public/',
+        contentBase: __dirname + '/app/public/',
         port:9000,
         open:true,
         hot:true,
