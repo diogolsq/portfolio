@@ -123,6 +123,14 @@ body{
 
 /*skills and keyboard style*/
 
+
+/* higind the keyboard for now in every screen since is not pretty yet*/
+.keyboard{
+  display: none;
+
+}
+
+
 @media screen and (max-width:500px) {
   .keyboard {
 
