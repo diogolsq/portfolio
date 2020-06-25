@@ -271,6 +271,7 @@ display: none;
 
 .card-section > h1 {
   font-family: GameFont;
+  padding-left:16px;
 }
 
 
