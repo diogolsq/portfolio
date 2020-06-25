@@ -274,12 +274,6 @@ display: none;
 }
 
 
-@media screen and (max-width:600px){
-  .card-trip {
-    width:90vw;
-  }
-}
-
 
 .card-trip {
   overflow: hidden;
@@ -291,6 +285,12 @@ display: none;
   height: 550px;
 }
 
+
+@media screen and (max-width:600px){
+  .card-trip {
+    width:306px;
+  }
+}
 
 .card-trip > video{
   height: 350px;
@@ -367,6 +367,14 @@ body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
 
 @media (min-width: 600px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* fixing manually each card*/
+
+
+body > div:nth-child(4) > div.cards > div:nth-child(7) > div{
+  position:relative;
+  top:-40px;
 }
 
 
