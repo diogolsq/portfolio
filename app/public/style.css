@@ -165,7 +165,6 @@ display: none;
   display:none;
 }
 
-
 @media screen and (min-width:767px){
 
     .skills-row{
@@ -275,6 +274,12 @@ display: none;
 }
 
 
+@media screen and (max-width:600px){
+  .card-trip {
+    width:90vw;
+  }
+}
+
 
 .card-trip {
   overflow: hidden;
@@ -343,6 +348,7 @@ body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
   top:50px;
   color:black;
 
+
 }
 
 .card-trip-infos .card-trip-user {
@@ -362,6 +368,9 @@ body > div:nth-child(4) > div > div:nth-child(4) > div > div > p {
 @media (min-width: 600px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 }
+
+
+
 
 
 
